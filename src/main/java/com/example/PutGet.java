@@ -5,7 +5,7 @@ import org.infinispan.client.hotrod.RemoteCacheManager;
 import org.infinispan.client.hotrod.configuration.ConfigurationBuilder;
 import org.infinispan.client.hotrod.impl.ConfigurationProperties;
 
-public class Get {
+public class PutGet {
 
     public static void main(String[] args) {
         String cacheName = args.length >= 1 ? args[0] : "test";
